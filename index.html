@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset = "UTF-8">
+  <meta name = "viewport" content="width=device-width, initial - scale=1.0">  
+<title> Basic HTML Table </title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fef9f8;
+    margin: 0;
+    padding: 20px;
+  }
+
+  h2 {
+    text-align: center;
+    color: #b76e79; /*rose shade */
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(183, 110, 121, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  th, td {
+    border: none;
+    padding: 14px 16px;
+    text-align: left;
+    font-size: 1em;
+  }
+
+  th {
+    background-color: #f4dada; /* Soft pink */
+    color: #333;
+    font-weight: bold;
+  }
+
+  tr:nth-child(even) td {
+    background-color: #fdf0f0; /* Light pastel */
+  }
+
+  tr:hover td {
+    background-color: #ffe5e9; /* Light rose hover effect */
+    transition: background-color 0.3s ease;
+  }
+</style>
+</head>
+
+<body>
+  
+
+  <table>
+    <caption>Basic Information of Individuals</caption>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>City</th>
+    </tr>
+    <tr>
+      <td> Shubhanjali Pandey </td>
+      <td> 21 yr</td>
+      <td> Bhopal</td>
+    </tr>
+    <tr>
+       <td>Shambhavi Pandey</td>
+       <td>18 yr</td>
+       <td>Bhopal</td>
+    </tr>
+    <tr>
+      <td> Shubhi</td>
+      <td> 22 yr</td>
+      <td> Bhopal</td>
+    </tr>
+  </table>
+</body>
+</html>
