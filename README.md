@@ -26,7 +26,7 @@ This is a simple yet well-styled HTML table created as part of **Week 2** of my 
 
 Below is a screenshot of the final table displayed in a browser:
 
-![Table Output Screenshot](.png)
+![Table Output Screenshot](Screenshot2025-06-15231505.png)
 
 
 ##  How to View
